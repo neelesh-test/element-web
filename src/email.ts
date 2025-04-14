@@ -20,3 +20,4 @@ export function looksValid(email: string): boolean {
 
     return EMAIL_ADDRESS_REGEX.test(email);
 }
+console.log('test');

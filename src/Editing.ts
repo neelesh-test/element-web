@@ -11,3 +11,4 @@ import { type TimelineRenderingType } from "./contexts/RoomContext";
 export const editorRoomKey = (roomId: string, context: TimelineRenderingType): string =>
     `mx_edit_room_${roomId}_${context}`;
 export const editorStateKey = (eventId: string): string => `mx_edit_state_${eventId}`;
+console.log('test');

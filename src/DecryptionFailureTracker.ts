@@ -5,6 +5,7 @@ Copyright 2018-2021 The Matrix.org Foundation C.I.C.
 SPDX-License-Identifier: AGPL-3.0-only OR GPL-3.0-only OR LicenseRef-Element-Commercial
 Please see LICENSE files in the repository root for full details.
 */
+console.log('test');
 
 import ScalableBloomFilter from "bloom-filters/dist/bloom/scalable-bloom-filter";
 import { HttpApiEvent, type MatrixClient, MatrixEventEvent, type MatrixEvent } from "matrix-js-sdk/src/matrix";

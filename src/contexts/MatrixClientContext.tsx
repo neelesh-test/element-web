@@ -21,6 +21,8 @@ export interface MatrixClientProps {
 }
 
 export function useMatrixClientContext(): MatrixClient {
+    console.log('test');
+
     return useContext(MatrixClientContext);
 }
 

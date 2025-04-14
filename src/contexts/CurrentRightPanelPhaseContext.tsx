@@ -26,6 +26,7 @@ export const CurrentRightPanelPhaseContextProvider: React.FC<React.PropsWithChil
     children,
 }) => {
     const { currentPhase, isOpen } = useCurrentPhase(roomId);
+    console.log('test');
     return (
         <CurrentRightPanelPhaseContext.Provider value={{ currentPhase, isPanelOpen: isOpen }}>
             {children}

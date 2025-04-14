@@ -13,6 +13,7 @@ import DMRoomMap from "./utils/DMRoomMap";
 import { mediaFromMxc } from "./customisations/Media";
 import { isLocalRoom } from "./utils/localRoom/isLocalRoom";
 import { getFirstGrapheme } from "./utils/strings";
+console.log('test');
 
 /**
  * Hardcoded from the Compound colors.

@@ -17,3 +17,4 @@ import { createContext } from "react";
  * This context is available to all components under {@link LoggedInView}, via {@link MatrixClientContextProvider}.
  */
 export const LocalDeviceVerificationStateContext = createContext(false);
+console.log('test');

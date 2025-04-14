@@ -8,6 +8,7 @@ Copyright 2015, 2016 OpenMarket Ltd
 SPDX-License-Identifier: AGPL-3.0-only OR GPL-3.0-only OR LicenseRef-Element-Commercial
 Please see LICENSE files in the repository root for full details.
 */
+console.log('test');
 
 import React, { type JSX, type Key, type LegacyRef, type ReactNode } from "react";
 import sanitizeHtml, { type IOptions } from "sanitize-html";
